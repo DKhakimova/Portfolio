@@ -19,29 +19,52 @@
     <div class="container">
         <div class="row">
             <div class="col-3 my-4" id="sidebar" style="height:94%; position:fixed">
-                <div class="row">
-                    <img src="image.jpeg" alt="portfolio_portrait" height="120">
-                    <h4>Dilorom Khakimova</h4>
-                    <p>SOFTWARE ENGINEER</p>
+                <div class="row" id="sidebar_top">
+                    <img id="sidebar_pic" src="image.jpeg" alt="portfolio_portrait" height="120">
+                    <h4 id="sidebar_name">Dilorom Khakimova</h4>
+                    <p id="sidebar_title">SOFTWARE ENGINEER</p>
                 </div>
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#" style="border-bottom: 1px solid grey;">HOME</a>
-                    <a class="nav-link" href="#" style="border-bottom: 1px solid grey;">RESUME</a>
-                    <a class="nav-link" href="#" style="border-bottom: 1px solid grey;">PORTFOLIO</a>
-                    <a class="nav-link active" href="#" style="border-bottom: 1px solid grey;">SKILLS</a>
-                    <a class="nav-link active" href="#" style="border-bottom: 1px solid grey;">CONTACT</a>
+                    <a class="nav-link active" href="#" id="nav_item">HOME</a>
+                    <a class="nav-link" href="#" id="nav_item">RESUME</a>
+                    <a class="nav-link" href="#" id="nav_item">PORTFOLIO</a>
+                    <a class="nav-link active" href="#" id="nav_item">SKILLS</a>
+                    <a class="nav-link active" href="#" id="nav_item">CONTACT</a>
                 </nav>
             </div>
             
             <div class="col-9 my-5 offset-3" id="sidebar" style="height:1000px;">
-                <div class="row">
-                    <div class="col-6 my-4" style="background-color:grey;">
-                        <p>Image goes here</p>
+                <div class="row" id="main_section">
+                    <div class="col-6 my-4">
+                        <img id="main_pic" src="image.jpeg" alt="big_portfolio_portrait" height="350">
                     </div>
 
-                    <div class="col-6 my-4" style="background-color: greenyellow;">
-                        <h3>I'm Dilorom Khakimova</h3>
+                    <div class="col-6 my-4">
+                        <h4>I'm Dilorom Khakimova</h4>
                         <p>I am a driven and creative Full Stack Developer based in Seattle, WA. With background in healthcare and medicine, I entered the world of computer science in a non-traditional way.  I can say that I am fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools. </p>
+                    </div>
+                </div>
+                <div class="row" id="main_section">
+                    <div>
+                        <h4>My Skills</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>MySQL</li>
+                            <li>Django</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" id="main_section">
+                    <div>
+                        <h4>Testimonials</h4>
+                        <div class="col-6 my-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officia in non maxime corrupti magni fugiat debitis. Itaque, odio voluptatibus cupiditate deserunt similique accusantium, ad illum officiis, saepe repellendus error.</p>
+                        </div>
+
+                        <div class="col-6 my-4">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ipsum possimus, assumenda officiis exercitationem mollitia accusamus porro necessitatibus impedit voluptatibus quam provident nisi voluptate voluptatum consequatur sit aliquam sapiente earum!</p>
+                        </div>
                     </div>
                 </div>
             </div>
